@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <script src="js/index.js"></script>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div class="container">
+	<h1 id="title" class="text-center">Tic Tac Toe</h1>
+	<br>
+	<br>
+	<div class="container text-center">
+		<!--Button Selection-->
+		<h6>Select Preferred Element</h6>
+		<div id="select" class="row">
+			<div class="col box"></div>
+			<div class="col box"><button id="xButt" class="btn-lg btn-secondary">X</button></div>
+			<div class="col box"><button id="oButt" class="btn-lg btn-secondary">O</button></div>
+			<div class="col box"></div>
+		</div>
+		<div class="row">
+			<div class="col"></div>
+			<div id="board" class="col invisible">
+				<!--Board is here-->
+				<div class="row">
+					<div id="1box" class="col box">
+						<h1 id="1" class="element invisible">N</h1>
+					</div>
+					<div id="2box" class="col box">
+						<h1 id="2" class="element"></h1>
+					</div>
+					<div id="3box" class="col box">
+						<h1 id="3" class="element"></h1>
+					</div>
+				</div>
+				<div class="row">
+					<div id="4box" class="col box">
+						<h1 id="4" class="element invisible">N</h1>
+					</div>
+					<div id="5box" class="col box">
+						<h1 id="5" class="element"></h1>
+					</div>
+					<div id="6box" class="col box">
+						<h1 id="6" class="element"></h1>
+					</div>
+				</div>
+				<div class="row">
+					<div id="7box" class="col box">
+						<h1 id="7" class="element invisible">N</h1>
+					</div>
+					<div id="8box" class="col box">
+						<h1 id="8" class="element"></h1>
+					</div>
+					<div id="9box" class="col box">
+						<h1 id="9" class="element"></h1>
+					</div>
+				</div>
+			</div>
+			<div class="col"></div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<h4 id="signature" class="text-center">Developed by Tony Wagdi</h4>
+</div>
+</body>
+</html>

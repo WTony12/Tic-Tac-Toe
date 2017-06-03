@@ -1,0 +1,27 @@
+body{
+	background-color: black;
+}
+h6, #signature, #title{
+	color: gold;
+	font-family: Metamorphous;
+}
+#board{
+	background-color: grey;
+	border: solid;
+	border-color: silver;
+	border-radius: 5%;
+}
+.box{
+	border: solid;
+	border-color: black;
+}
+.element{
+	font-family: Metamorphous;
+	font-size: 500%;
+	color: black;
+}
+.btn-lg{
+	background-color: transparent !important;
+	color: gold;
+	border-radius: 50%;
+}
